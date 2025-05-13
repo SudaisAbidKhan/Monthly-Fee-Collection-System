@@ -1,4 +1,4 @@
-# Monthly Fee Collection System
+# 💸Monthly Fee Collection System
 
 A lightweight web-based application to manage and track student monthly fee payments, built using **PHP**, **MySQL**, **HTML**, **CSS**, **Bootstrap**, and **JavaScript**.
 
@@ -29,35 +29,9 @@ A lightweight web-based application to manage and track student monthly fee paym
 
 ---
 
-## 📂 File Structure (Flat Layout)
-
-index.php
-login.php
-logout.php
-dashboard.php
-add_student.php
-edit_student.php
-delete_student.php
-view_students.php
-fee_structure.php
-record_payment.php
-view_payments.php
-generate_receipt.php
-report_paid_unpaid.php
-report_student_summary.php
-export_report.php
-db_connect.php
-session.php
-functions.php
-scripts.js
-README.md
-
-
----
-
 ## ⚙️ Setup Instructions
-Make Sure you have XAMPP installed
-
+Make sure you have XAMPP install
+Move the project to your web server’s root directory (e.g., htdocs in XAMPP).
 1. **Clone or Download the Project**
 
 2. **Create a MySQL Database**
@@ -73,11 +47,17 @@ Make Sure you have XAMPP installed
 ---
 
 ## 🔐 Default Admin Credentials
+Add an admin user manually to the database in your admin or users table.
+Example credentials:
 
-> (You must insert admin user manually into `users` table. Example: username: `admin`, password: `admin123`)
+Username: admin
 
+Password: admin123
 ---
 
 ## 📄 License
 
 This project is for educational use. Feel free to use or modify for your own purposes.
+---
+## ✍️ Author
+Sudais Khan
