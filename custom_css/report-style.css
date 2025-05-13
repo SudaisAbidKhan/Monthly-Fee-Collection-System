@@ -1,0 +1,115 @@
+/* Page background */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1ac5d7, #2a5298), url('dashboard-bg.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Container */
+.report-container {
+  width: 95%;
+  max-width: 1000px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  margin: 40px auto;
+}
+
+/* Heading */
+.report-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Input fields */
+input[type="text"] {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+/* Table */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+  color: #eee;
+}
+
+.table thead th {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  text-align: center;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+/* Badges */
+.badge-success {
+  background-color: #28a745 !important;
+}
+
+.badge-danger {
+  background-color: #dc3545 !important;
+}
+
+/* Buttons */
+.btn {
+  font-weight: 500;
+}
+
+.btn-light {
+  color: #000;
+  background-color: #fff;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #e0e0e0;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+/* Ensure Generate button has the same style as Back to Dashboard button */
+.btnback,
+.btnback-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 0px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btnback:hover,
+.btnback-btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+

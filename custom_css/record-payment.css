@@ -1,0 +1,92 @@
+/* Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1ac5d7, #2a5298), url('dashboard-bg.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Form Container with Glassmorphism */
+.form-container {
+  width: 95%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  margin: 40px auto;
+}
+
+/* Headings */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Labels */
+.form-label {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Inputs */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.form-container input::placeholder {
+  color: #ccc;
+}
+
+/* Buttons */
+.form-container .btn {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Alerts */
+.alert {
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(13, 202, 240, 0.2);
+  border-left: 5px solid #0dcaf0;
+}
+
+.btnback,
+.btnback-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btnback:hover,
+.btnback-btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

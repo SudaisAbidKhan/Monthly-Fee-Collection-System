@@ -1,0 +1,92 @@
+/* General Page Setup */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1ac5d7, #2a5298), url('dashboard-bg.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* Glassmorphism Navbar */
+nav {
+  background: rgb(26 197 215);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+nav .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav .navbar-text {
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+nav a.btn {
+  padding: 8px 16px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+nav a.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Container Layout */
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* Page Title */
+.container h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+/* Dashboard Grid */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Glassmorphism Cards */
+.dashboard-grid a {
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.dashboard-grid a:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,87 @@
+/* Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+background: linear-gradient(to right, #1ac5d7, #2a5298), url('dashboard-bg.jpg') no-repeat center center/cover;
+
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.view-container {
+  width: 95%;
+  max-width: 1000px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* Heading */
+.view-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+thead {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Alerts */
+.alert {
+  background-color: rgba(40, 167, 69, 0.2);
+  border-left: 5px solid #28a745;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  color: #fff;
+}

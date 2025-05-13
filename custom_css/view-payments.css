@@ -1,0 +1,137 @@
+/* Page background */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1ac5d7, #2a5298), url('dashboard-bg.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Main container */
+.payments-container {
+  width: 95%;
+  max-width: 1100px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  margin: 40px auto;
+}
+
+/* Heading */
+.payments-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Inputs & Select */
+input[type="text"], .student,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+/* Table styles */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table-dark {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table thead th {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-align: center;
+}
+
+.table tbody td {
+  color: #eee;
+  vertical-align: middle;
+}
+
+/* Badges */
+.badge-success {
+  background-color: #28a745 !important;
+}
+
+.badge-danger {
+  background-color: #dc3545 !important;
+}
+
+/* Buttons */
+.btn {
+  font-weight: 500;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btnback {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btnback:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-glass {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-glass:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+

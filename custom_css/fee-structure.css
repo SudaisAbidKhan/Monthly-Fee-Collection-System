@@ -1,0 +1,144 @@
+/* Full Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1ac5d7, #2a5298), url('dashboard-bg.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+  color: #fff;
+}
+
+/* Form Container with Glassmorphism */
+.form-container {
+  width: 95%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  margin: 40px auto;
+}
+
+/* Export Container */
+.export-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 50px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* Glass Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border-left: 5px solid #ffffff33;
+  margin-bottom: 30px;
+}
+
+/* Headings */
+.form-container h2,
+.form-container h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.form-heading {
+  margin-bottom: 25px;
+  color: #f8f9fa;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Labels */
+.form-label {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Form Inputs */
+.form-control {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+/* Buttons */
+.form-container .btn {
+  font-weight: bold;
+}
+
+.btn-outline-light {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+  width: 100%;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btnback {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btnback:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Table Styling */
+.table-dark th,
+.table-dark td {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Alert Box */
+.alert {
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(13, 202, 240, 0.2);
+  border-left: 5px solid #0dcaf0;
+}

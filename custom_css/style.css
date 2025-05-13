@@ -1,0 +1,86 @@
+/* Fullscreen background with center alignment */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('images/background.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Glassmorphism login box */
+.login-box {
+  width: 350px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* Heading */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+/* Label */
+.login-box label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+/* Input Fields */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+
+/* Placeholder */
+.login-box input::placeholder {
+  color: #ddd;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Error message styling (if any) */
+.alert {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: rgba(255, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,104 @@
+/* Full page glass background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1ac5d7, #2a5298), url('dashboard-bg.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+  color: #fff;
+}
+
+/* Main container */
+.export-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 50px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* Cards for forms */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border-left: 5px solid #ffffff33;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.form-heading {
+  margin-bottom: 15px;
+  color: #f8f9fa;
+  font-weight: 600;
+}
+
+/* Inputs and Select */
+.form-control,
+.form-select {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.form-select option {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+/* Buttons */
+.btn-outline-light,
+.btn-outline-success,
+.btn-secondary {
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-outline-light:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+.btnback {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btnback:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
