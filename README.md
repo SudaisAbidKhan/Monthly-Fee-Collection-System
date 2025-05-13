@@ -56,6 +56,7 @@ README.md
 ---
 
 ## ⚙️ Setup Instructions
+Make Sure you have XAMPP installed
 
 1. **Clone or Download the Project**
 
@@ -73,16 +74,7 @@ README.md
 
 ## 🔐 Default Admin Credentials
 
-> (You must insert admin user manually into `users` table. Example: username: `admin`, password: `admin` hashed with `password_hash()`)
-
----
-
-## 🧰 Future Improvements
-
-- Student login to view payment history
-- SMS/email reminders
-- PDF receipt/report generation
-- AJAX form submissions
+> (You must insert admin user manually into `users` table. Example: username: `admin`, password: `admin123`)
 
 ---
 
