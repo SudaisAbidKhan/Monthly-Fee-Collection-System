@@ -60,15 +60,12 @@ README.md
 1. **Clone or Download the Project**
 
 2. **Create a MySQL Database**
-   - Import your database schema (sample schema not included here).
+   - Create a database in XAMPP with the name "fee_collection"
+   - Import the fee_collection.sql file to it .
 
-3. **Configure Database Connection**
-   - Edit `db_connect.php` with your DB credentials:
-     ```php
-     $conn = new mysqli("localhost", "root", "", "your_database_name");
-     ```
 
-4. **Run the App**
+
+3. **Run the App**
    - Place the project in your web server's root directory (e.g., `htdocs` if using XAMPP).
    - Visit `http://localhost/your-folder/index.php`.
 
